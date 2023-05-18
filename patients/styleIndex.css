@@ -1,0 +1,64 @@
+.header
+{
+    display: grid;
+}
+#addBtn
+{
+    position: absolute;
+    right: 15px;
+    width: 100px;
+}
+.listaDrzave
+{
+    text-align: center;
+}
+.tabela
+{
+    position: absolute;
+    left: 32%;
+    right: 32%;
+    margin-top: 20px;
+    width: fit-content;
+
+}
+td
+{
+    padding: 6px;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+}
+th
+{
+    padding: 15px 10px;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    background-color: gray;
+}
+.ispisZarazeni
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+}
+.tekst
+{
+    text-align: left;
+}
+.broj
+{
+    text-align: right;
+}
+.tabela tr:hover
+{
+    font-weight: bold;
+    background-color: #b8b894;
+}
+.delete:hover
+{
+    cursor: pointer;
+    border: 1px solid red;
+}
+.delete
+{
+    text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+.dodajOsobu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.sirina
+{
+    width: 170px;
+}
+.dugme
+{
+    width: 100px;
+}
+td
+{
+    padding: 5px;
+}
+.cookie
+{
+    text-align: center;
+    background-color: coral;
+    border: 1px solid red;
+}
+
+
